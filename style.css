@@ -1,0 +1,362 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+.navbar {
+    background-color: #00B3A4;
+    /* 7UP green */
+    height: 100px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    padding: 0 40px;
+}
+
+/* Logo */
+.logo img {
+    height: 70px;
+}
+
+/* Menu */
+.menu {
+    list-style: none;
+    display: flex;
+    gap: 50px;
+}
+
+.menu li a {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    font-weight: 500;
+    letter-spacing: 1px;
+}
+
+.menu li a:hover {
+    color: #ffdddd;
+}
+
+/* Social Icons */
+.social {
+    display: flex;
+    gap: 15px;
+}
+
+.social i {
+    color: white;
+    background-color: rgba(255, 255, 255, 0.2);
+    padding: 10px;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.social i:hover {
+    background-color: white;
+    color: #00B3A4;
+}
+
+/* HERO SECTION */
+.hero {
+    background: linear-gradient(rgba(242, 238, 238, 0.3), rgba(253, 251, 251, 0.3)), url(/images/tropical-header.png);
+    background-image: url(tropical-header.png);
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-position: center 0px;
+    padding: 14px 10.5%;
+    position: relative;
+}
+
+
+
+/* Left Text */
+.hero-left h1 {
+    font-size: 50px;
+    font-weight: bold;
+    line-height: 1.2;
+}
+
+/* Right Content */
+.hero-content {
+    text-align: center;
+}
+
+/* Button */
+.hero-btn {
+    display: inline-block;
+    margin-top: 20px;
+    margin-right: 915px;
+    padding: 12px 30px;
+    border: 2px solid white;
+    border-radius: 30px;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    transition: 0.3s ease;
+}
+
+.hero-btn:hover {
+    background: white;
+    color: #17b6a3;
+}/* Container for the whole ad */
+.ad-container {
+  width: 100%;
+  height: 400px; /* Adjust based on your image size */
+  background: linear-gradient(to bottom, #e2f981 50%, #f9a6bd 50%); /* Split background colors */
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  font-family: 'Arial Narrow', sans-serif;
+}
+
+/* The Green Pill Overlay */
+.overlay-badge {
+  background-color: rgba(34, 94, 59, 0.9); /* Deep green with slight transparency */
+  color: white;
+  padding: 40px 60px;
+  border-radius: 150px; /* Creates the pill shape */
+  text-align: center;
+  max-width: 750px;
+  height: 180px;
+  width: 600px;
+  z-index: 10;
+  font-size-adjust: 20px;
+}
+
+.overlay-badge h1 {
+  font: size 15px;;
+  margin: 0;
+  letter-spacing: 2px;
+ 
+}
+
+.overlay-badge p {
+  font-size: 12px;
+  margin: 10px 0 25px 0;
+  margin-bottom: 10px;
+}
+body{
+    font-family: 'Mali',cursive;
+}
+
+/* The Outline Button */
+.btn {
+  display: inline-block;
+  color: white;
+  text-decoration: none;
+  border: 2px solid white;
+  padding: 5px 25px;
+  border-radius: 25px;
+  font-weight: bold;
+  transition: 0.3s;
+  margin-bottom: 10px   ;
+}
+
+.btn:hover {
+  background-color: white;
+  color: #225e3b;
+}
+
+.content-wrapper1{
+  display: flex;
+    justify-content: center;
+    align-items: center;  
+}
+.content-wrapper1{
+    background-image: url("image2.png");
+    background-size: cover;
+    width: 100%;
+    height:500px;
+border: redious 500;
+    margin: auto;
+
+}
+
+.content-wrapper{
+  display: flex;
+    justify-content: center;
+    align-items: center;  
+}
+.content-wrapper{
+    background-image: url("image1.png");
+    background-size:cover;
+    width: 100%;
+    height: 500px; 
+    border: redious 500;
+    margin: auto;
+
+}
+.conternt-wrapper{
+    display: flex;
+    justify-content:center;
+    align-items:center;
+}
+.footer {
+    background-color: #4a4a4a;
+    padding: 30px 20px;
+    text-align: center;
+    color: white;
+}
+
+.footer-links {
+    margin-bottom: 15px;
+}
+
+.footer-links a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 14px;
+}
+
+.footer-links a:hover {
+    text-decoration: underline;
+}
+
+.footer-text {
+    font-size: 13px;
+    opacity: 0.8;
+}
+.hero-left h1{
+    color: white;
+    margin-right: 381px;
+    margin-top: 93px;
+    width: 700px;
+}
+
+.hero-left span{
+   
+}
+
+.hero{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width:auto;
+}
+
+.hero-left{
+    width: 2000px;
+}
+
+/* .hero-content{
+    display: block;
+} */
+
+h1{
+   font-weight: 8000px;
+   font-weight: bold;
+}
+:root {
+  --brand-green: #00a850; /* Adjust to match the exact 7up green */
+  --overlay-dark: rgba(23, 64, 43, 0.8);
+}
+
+.hero-container {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  background-color: var(--brand-green);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  font-family: 'Mali', sans-serif; /* Using the font identified earlier! */
+}
+
+/* Positioning the Cans */
+.product-wrap {
+  display: flex;
+  gap: 50px;
+  align-items: center;
+}
+
+.can {
+  width: 250px; /* Adjust based on your image size */
+  filter: drop-shadow(0 20px 30px rgba(0,0,0,0.2));
+}
+
+.left-can { transform: rotate(-15deg) translateY(50px); }
+.center-can { transform: translateY(-20px); }
+.right-can { transform: rotate(15deg) translateY(20px); }
+
+/* The Dark Central Box */
+.overlay-card {
+  position: absolute;
+  background: var(--overlay-dark);
+  padding: 40px 60px;
+  border-radius: 100px; /* Gives it that pill shape */
+  text-align: center;
+  color: white;
+  width: 50 to 60%;
+  max-width: 800px;
+  z-index: 10;
+}
+
+.overlay-card h1 {
+  font-size: 3.5rem;
+  margin-bottom: 10px;
+}
+
+.btn {
+  display: inline-block;
+  /* margin-top: 20px; */
+  padding: 5px 30px;
+  border: 2px solid white;
+  border-radius: 25px;
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.btn:hover {
+  background: white;
+  color: var(--brand-green);
+}
+/* Update your existing can class */
+.can {
+  position: relative; /* Required for z-index to work */
+  z-index: 10;        /* Moves cans in front of the dark box */
+  filter: drop-shadow(0 15px 30px rgba(0,0,0,0.3)); /* Adds depth */
+}
+
+/* Update your existing overlay/pill class */
+.overlay-card {
+  position: absolute;
+  z-index: 5;         /* Keeps the box behind the cans */
+  background: rgba(10, 50, 30, 0.8); /* Deepens the green for better contrast */
+}
+.overlay-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;    /* Centers the text and button horizontally */
+  justify-content: center;
+  text-align: center;
+  padding: 40px;
+}
+
+.btn {
+
+  display: inline-block;  /* Ensures it respects the parent's centering */
+  width: fit-content;     /* Keeps the button from stretching too wide */
+margin-top: 0;
+}
+h1{
+    font-size: 2em;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    line-height: 1.2;
+}
